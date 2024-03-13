@@ -8,10 +8,12 @@ function Projects(props){
                 <h1>Projects</h1>
             </div>
             <div className="project-card">
-                <p>Name: {props.name}</p>
-                <p>Description: {props.description}</p>
-                <p>Software Used: {props.software}</p>
-                <p>Link: {props.link}</p>
+                <p>
+                    <b className='cat-name'>Name:</b> {props.name}</p>
+                <p>
+                    <b className='cat-name'>Description:</b> {props.description}</p>
+                <p>
+                    <b className='cat-name'>Link:</b> {props.link}</p>
             </div>
         </>
     )
@@ -20,14 +22,12 @@ function Projects(props){
 Projects.propTypes = {
     name: props.string,
     description: props.string,
-    software: props.string,
     link: props.string
 }
 
 Projects.defaultProps = {
     name: "Project Name",
     description: "Project Description",
-    software: "Software Used",
     link: "Link"
 }
 

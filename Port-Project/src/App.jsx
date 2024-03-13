@@ -11,7 +11,7 @@ function App() {
     <Header />
     <Card />
     <About />
-    <Projects name="Intergalatic Voyages" software="HTML, JavaScript, CSS, MongoDB" description="First project completed through boot-camp" link="http://placeholder.com" />
+    <Projects name="Intergalactic Voyages" software="HTML, JavaScript, CSS, MongoDB" description="First project completed through boot-camp" link="http://placeholder.com" />
     <Projects name="ProjectAMC" description="Portfolio displaying my information and skill set" link="http://anotherplace.com"/>
     <Contact />
     <Footer />
