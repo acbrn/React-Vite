@@ -120,7 +120,18 @@ button:focus-visible {
 /* About Styles */
 
 /* Footer Styles */
-
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+  background: linear-gradient(to top, #239bca, #06061a);
+  border: 1px solid #1a1a1a;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 /* Dark Mode */
 @media (prefers-color-scheme: dark) {
   :root {
