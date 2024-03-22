@@ -1,23 +1,19 @@
-import Header from "./Header.jsx"
-import Footer from "./Footer.jsx";
-import Card from "./Card.jsx";
-import About from "./About.jsx";
-import Projects from "./Projects.jsx";
-import Contact from "./Contact.jsx";
+import { Header, Navbar, Footer } from './components';
+import { About, Card, Contact, Projects } from './views';
 
-function App() {
+
+const App = () => {
   return (
-  <>
-    <Header />
-    <Card />
-    <About />
-    <Projects name="Intergalactic Voyages" software="HTML, JavaScript, CSS, MongoDB" description="First project completed through boot-camp" link="http://placeholder.com" />
-    <Projects name="ProjectAMC" description="Portfolio displaying my information and skill set" link="http://anotherplace.com"/>
-    <Contact />
-    <Footer />
-  </> 
+    <div className='App'>
+      <Header />
+      <Navbar />
+      <About />
+      <Card />
+      <Contact />
+      <Projects />
+      <Footer />
+    </div>
   );
-
 }
 
-export default App
+export default App;

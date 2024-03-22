@@ -1,0 +1,12 @@
+/*Contact Styles */
+
+.contact-title{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #1a1a1a;
+}
+.card-text{
+    font-size: 1.2em;
+    color: #1a1a1a;
+    margin-top: 20px;
+}

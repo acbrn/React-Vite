@@ -1,0 +1,67 @@
+h6{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1rem;    
+}
+.footer-heading{
+    border-top: 2px solid  rgb(76, 11, 76);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px; 
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.footer-btn{
+    background-color: transparent;
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 0.2rem 0.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    width: 5em;
+    text-align: center;
+}
+.footer-btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+.footer-social{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.footer-links_div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.footer-link-title{
+    border-bottom: 2px solid  rgb(76, 11, 76);
+    border-width: 2px;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: first baseline;
+}
+.footer-copyright{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,36 @@
+.navbar{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 2rem;
+}
+.navbar__logo{
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text);
+}
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.navbar__link{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color-text);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.navbar__link:hover{
+    color: var(--color-subtext);
+}
+.navbar__toggle{
+    font-size: 1.5rem;
+    color: var(--color-text);
+    cursor: pointer;
+    display: none;
+}

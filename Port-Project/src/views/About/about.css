@@ -1,0 +1,30 @@
+.about-title {
+    border-bottom: solid rgb(76, 11, 76);
+  border-width: 3px;
+  color: #fff;
+  width: 10em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about-content {
+    color: #3027a5;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.random-fact-title {
+    border-bottom: solid rgb(76, 11, 76);
+    border-width: 3px;
+    color: #fff;
+    width: 10em;
+    display: flex;
+    justify-content: center;
+}
+.random-fact{
+color: #3027a5;
+font-size: 1.2em;
+text-align: start;
+display: flex;
+justify-content: center;
+}

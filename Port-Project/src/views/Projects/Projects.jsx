@@ -1,7 +1,7 @@
 import props from 'prop-types'
+import './projects.css'
 
-
-function Projects(props){
+const Projects = (props) => {
     return (
         <>
             <div className="project-title">

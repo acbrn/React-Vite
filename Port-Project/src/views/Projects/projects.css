@@ -1,0 +1,32 @@
+/* Projects Styles */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em;
+}
+
+.project-title {
+    border-top: 2px solid #1a1a1a;
+    border-radius: 8px;
+    padding: 0.5em 1em;
+    box-shadow: #06061a 0 0 10px;
+    font-size: 1em;
+    margin: 1em 0;
+}
+
+.project-card {
+    align-items: center;
+    background: linear-gradient(to top, #239bca, #06061a);
+    border: 1px solid #1a1a1a;
+    border-radius: 8px;
+    padding: 1.5em;
+    margin: 1em;
+    text-align: center;
+    max-width: 25em;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
